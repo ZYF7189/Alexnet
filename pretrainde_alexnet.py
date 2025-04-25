@@ -15,9 +15,7 @@ epoch = 20
 batch_size = 32  # 在获取数据函数时传入这个值
 
 
-alexnet_true = torchvision.models.alexnet(pretrained = False)  # 加载预训练的AlexNet模型
-model_path = "./pretrained_model/alexnet-owt-7be5be79.pth"  # 模型参数路径
-alexnet_true.load_state_dict(torch.load(model_path))  # 加载模型参数
+alexnet_true = torchvision.models.alexnet(pretrained = True)  # 加载预训练的AlexNet模型
 print(alexnet_true)  # 打印模型结构
 # print(alexnet_true.state_dict())  # 打印模型参数字典
 
