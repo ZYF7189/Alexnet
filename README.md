@@ -1,4 +1,4 @@
-# AlexNet
+# Reproduce Alexnet using PyTorch
 ## 1. 项目描述
 本仓库包含我在学习PyTorch框架时实现的AlexNet网络。
 
